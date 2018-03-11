@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Enemy : MonoBehaviour
+public class gEnemy : MonoBehaviour
 {
 
     [System.Serializable]
@@ -11,7 +11,7 @@ public class Enemy : MonoBehaviour
     }
 
     public EnemyStats stats = new EnemyStats();
-    public static void KillEnemy(Enemy other)
+    public static void KillEnemy(gEnemy other)
     {
         Destroy(other.gameObject);
     }

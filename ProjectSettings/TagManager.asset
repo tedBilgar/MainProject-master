@@ -8,6 +8,7 @@ TagManager:
   - CoinX2
   - Fire
   - Box
+  - Enemy
   layers:
   - Default
   - TransparentFX
